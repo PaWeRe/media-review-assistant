@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Review outputs (may contain confidential manuscript content)
+review_*.txt
+*_full.*
+
+# Manuscripts and review documents (confidential)
+*.pdf
+*.docx
+*.doc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+.cursor/

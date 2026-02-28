@@ -23,7 +23,7 @@ def print(*args, **kwargs):
 OLLAMA_URL = "http://localhost:11434/api/generate"
 DEFAULT_MODEL = "gemma3:12b"
 DEFAULT_CONTEXT_LENGTH = 32768
-MAX_CHARS = 50000
+MAX_CHARS = 100000  # ~25K tokens, safe for 65K context per pass
 
 
 # ---------------------------------------------------------------------------
